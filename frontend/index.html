@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Online Food Ordering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo">Foodie</a>
+        <div class="nav-links" id="nav-right">
+            <!-- Nav contents injected by script.js -->
+        </div>
+        <button id="theme-toggle" title="Toggle Light/Dark Mode">🌓</button>
+    </nav>
+
+    <main class="hero">
+        <div class="hero-text">
+            <h1>Delicious Food <br><span style="color: var(--primary-color);">Delivered Fast.</span></h1>
+            <p>Order from your favorite restaurants and enjoy premium meals at your doorstep. Fresh, hot, and delicious.</p>
+            <div class="hero-btns">
+                <a href="menu.html" class="btn btn-primary">Order Now</a>
+                <a href="#features" class="btn btn-outline" style="margin-left: 1rem;">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600" alt="Delicious Food" style="border-radius: 30px; box-shadow: var(--shadow);">
+        </div>
+    </main>
+
+    <section id="features" style="padding: 4rem 10%; text-align: center;">
+        <h2>Why Choose Us?</h2>
+        <div class="product-grid" style="padding: 2rem 0;">
+            <div class="glass product-card">
+                <h3>Fast Delivery</h3>
+                <p>Hot food in under 30 minutes.</p>
+            </div>
+            <div class="glass product-card">
+                <h3>Best Prices</h3>
+                <p>Exclusive deals and discounts.</p>
+            </div>
+            <div class="glass product-card">
+                <h3>24/7 Support</h3>
+                <p>We're here to help anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
