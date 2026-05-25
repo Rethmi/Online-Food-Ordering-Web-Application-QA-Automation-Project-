@@ -103,3 +103,8 @@ A simple food ordering web application built for QA practice with both manual an
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+---
+
+👨‍💻 Author
+Sainsa Rethmi Thennakoon
