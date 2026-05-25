@@ -1,11 +1,15 @@
 # 🍔 Online Food Ordering App – QA Automation Portfolio Project
 
+
 This repository showcases a complete QA Automation Portfolio Project built for internship applications and learning purposes. It includes a fully functional frontend web application, manual testing documentation, and a Selenium-based automation framework using Java and TestNG.
+
 
 ---
 
 ## 📁 Project Structure
 
+
+```
 Online-Food-Ordering-App/
 │
 ├── frontend/                 # Web Application (HTML, CSS, JavaScript)
@@ -13,6 +17,7 @@ Online-Food-Ordering-App/
 ├── automation-testing/      # Selenium WebDriver + Java + TestNG Framework
 └── README.md
 
+```
 ---
 
 ## 🚀 Getting Started
